@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>Freebox</deviceType>
+    <friendlyName>Freebox v5</friendlyName>
+    <manufacturer>logread</manufacturer>
+    <manufacturerURL></manufacturerURL>
+    <modelDescription>Freebox/Alicebox v5 monitoring</modelDescription>
+    <modelName>v0.1</modelName>
+    <modelNumber>1</modelNumber>
+    <handleChildren>1</handleChildren>
+    <Category_Num>1</Category_Num>
+    <UDN></UDN>
+    <serviceList>
+      <service>
+        <serviceType>urn:logread-com:service:Freebox:1</serviceType>
+        <serviceId>urn:logread-com:serviceId:Freebox1</serviceId>
+        <SCPDURL>S_Freebox.xml</SCPDURL>
+      </service>
+    </serviceList>
+		<staticJson>D_Freebox.json</staticJson>
+    <implementationList>
+      <implementationFile>I_Freebox.xml</implementationFile>
+    </implementationList>
+  </device>
+</root>
